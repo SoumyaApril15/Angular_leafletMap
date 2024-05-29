@@ -1,0 +1,52 @@
+
+/* Style for the map layout container */
+#map {
+    height: 400px; /* Adjust height as needed */
+    width: 100%;   /* Use full width of the parent container */
+    border: 1px solid #e5dede; /* Add border style */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 5px;
+  }
+  
+.map-layout {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    height: 100%;
+}
+
+/* Style for the map container */
+.map-container {
+    width: 100%;
+    margin-top: 20px;
+}
+
+/* Style for form labels */
+.form-label {
+    font-weight: bold;
+}
+
+
+.form-control {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+
+.col-md-6 {
+    flex: 0 0 50%;
+    max-width: 50%;
+    padding: 0 10px;
+}
+
+
+.col-12 {
+    width: 100%;
+    padding: 0 10px;
+}
+
